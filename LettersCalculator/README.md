@@ -1,100 +1,108 @@
-In this project, let's build a **Letters Calculator** by applying the concepts we have learned till now.
+🧮 Letters Calculator
 
-### Refer to the image below:
+A simple and interactive React.js application that calculates the number of characters entered by the user in real time.
 
-<br/>
-<div style="text-align: center;">
-<img src="https://assets.ccbp.in/frontend/content/react-js/letters-calculator-output-v2.gif" alt="letters-calculator-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+The application updates the character count automatically whenever the user types or deletes text.
 
-### Design Files
+🚀 Live Demo
 
-<details>
-<summary>Click to view</summary>
+Add your deployed project URL here.
 
-- [Extra Small (Size < 576px), Small (Size >= 576px), Medium (Size >= 768px)](https://assets.ccbp.in/frontend/content/react-js/letters-calculator-sm-output-v2.png)
-- [Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/letters-calculator-lg-output-v2.png)
+📸 Project Preview
 
-</details>
+Add a screenshot of your application here.
 
-### Set Up Instructions
+✨ Features
 
-<details>
-<summary>Click to view</summary>
+- Real-Time Character Counting: Automatically calculates the number of characters as the user types.
+- Dynamic Updates: Updates the count immediately when characters are added or deleted.
+- Interactive Input: Allows users to enter any text or phrase.
+- Responsive Design: Adapts to different screen sizes.
+- Clean UI: Green-themed interface with an illustration and styled input elements.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+🛠️ Technologies Used
 
-### Completion Instructions
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+📂 Project Structure
 
-The app must have the following functionalities
+LettersCalculator/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   └── LettersCalculator/
+│   │       ├── index.js
+│   │       └── index.css
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
 
-- When a non-empty value is provided in the input, then the count of letters provided should be displayed
+⚙️ Installation and Setup
 
-</details>
+Follow these steps to run the project locally.
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+1. Clone the repository
 
-Use these files to complete the implementation:
+git clone https://github.com/PWN-N/Frontend-projects.git
 
-- `src/components/LettersCalculator/index.js`
-- `src/components/LettersCalculator/index.css`
-</details>
+2. Navigate to the project directory
 
-### Quick Tips
+cd Frontend-projects/LettersCalculator
 
-<details>
-<summary>Click to view</summary>
-<br>
+3. Install dependencies
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+npm install
 
-  ```
-    outline: none;
-  ```
+4. Start the development server
 
-  </details>
+npm start
 
-### Resources
+5. Open in your browser
 
-<details>
-<summary>Image URLs</summary>
+http://localhost:3000
 
-- [https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png](https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png) alt should be **letters calculator**
+🧠 Core React Concepts Practiced
 
-</details>
+This project helped me understand and implement:
 
-<details>
-<summary>Colors</summary>
+- React Class Components
+- Component State
+- "this.setState()"
+- Event Handling using "onChange"
+- Controlled and dynamic UI updates
+- JSX
+- CSS Flexbox and Responsive Design
 
-<br/>
+💡 How It Works
 
-<div style="background-color: #1d976c; width: 150px; padding: 10px; color: white">Hex: #1d976c</div>
-<div style="background-color: #93f9b9; width: 150px; padding: 10px; color: black">Hex: #93f9b9</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #e4e7eb; width: 150px; padding: 10px; color: black">Hex: #e4e7eb</div>
-<div style="background-color: #219a6f; width: 150px; padding: 10px; color: white">Hex: #219a6f</div>
+The application uses the input element's "onChange" event to capture the current text.
 
-</details>
+The ".length" property calculates the total number of characters.
 
-<details>
-<summary>Font-families</summary>
+onChangeInput = event => {
+  this.setState({
+    noOfLetters: event.target.value.length,
+  })
+}
 
-- Roboto
+Whenever the state changes, React automatically re-renders the component and displays the updated character count.
 
-</details>
+Note: The counter includes spaces and other characters, not just alphabetic letters.
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+🎯 Learning Outcome
+
+Built this project as part of my React.js learning journey to strengthen my understanding of state management, event handling, and dynamic rendering in React.
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository!
