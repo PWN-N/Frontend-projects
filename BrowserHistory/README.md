@@ -1,6 +1,5 @@
-In this project, let's build a **Browser History** app by applying the concepts we have learned till now.
+In this project, let's build a **Browser History** app 
 
-### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -36,13 +35,12 @@ In this project, let's build a **Browser History** app by applying the concepts 
 
 The app must have the following functionalities
 
-- Initially, the list of given history items should be displayed with a delete button for each history item.
 - When a non-empty value is provided in the search input, then display the history items which includes the search input irrespective of case
 - When the delete button of a history item is clicked, then the respective history item should be deleted from the list of history items
 - When a non-empty value is provided in the search input element, and no history item includes the value given in the search input, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
 - When all the history items are deleted, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
 
-- The App is provided with `historyList`. It consists of a list of historyItem objects with the following properties in each historyItem object
+
 
   |     Key      | Data Type |
   | :----------: | :-------: |
@@ -61,11 +59,6 @@ The app must have the following functionalities
 
 <br/>
 
-**The following instructions are required for the tests to pass**
-
-- The `logoUrl` in the each history item have alt as **domain logo**
-- The delete button in the history item should have the `data-testid` as **delete**
-
 </details>
 
 ### Resources
@@ -73,9 +66,9 @@ The app must have the following functionalities
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png](https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png) alt should be **app logo**
-- [https://assets.ccbp.in/frontend/react-js/search-img.png](https://assets.ccbp.in/frontend/react-js/search-img.png) alt should be **search**
-- [https://assets.ccbp.in/frontend/react-js/delete-img.png](https://assets.ccbp.in/frontend/react-js/delete-img.png) alt should be **delete**
+- [https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png](https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png) 
+- [https://assets.ccbp.in/frontend/react-js/search-img.png](https://assets.ccbp.in/frontend/react-js/search-img.png) 
+- [https://assets.ccbp.in/frontend/react-js/delete-img.png](https://assets.ccbp.in/frontend/react-js/delete-img.png) 
 
 </details>
 
@@ -102,10 +95,3 @@ The app must have the following functionalities
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
