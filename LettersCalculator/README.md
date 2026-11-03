@@ -1,4 +1,4 @@
-🧮 Letters Calculator
+🧮 Letters Calculator 
 
 A simple and interactive React.js application that calculates the number of characters entered by the user in real time.
 
