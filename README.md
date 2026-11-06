@@ -1,4 +1,4 @@
-# Frontend Projects Using React
+# Frontend Projects
 
 Welcome to my Frontend Development repository!
 
