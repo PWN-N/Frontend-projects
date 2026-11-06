@@ -39,7 +39,7 @@ I use this repository to practice concepts, build projects, experiment with new 
 Clone this repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone github.com/PWN-N/Frontend-projects
 ```
 
 Navigate to the project folder:
