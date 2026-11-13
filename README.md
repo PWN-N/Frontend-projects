@@ -1,6 +1,6 @@
 # Frontend Projects
 
-Welcome to my Frontend Development repository!
+Welcome to my Frontend Development repository! 
 
 This repository contains my frontend development journey, including projects built using HTML, CSS, JavaScript, and React.js.
 
@@ -33,20 +33,6 @@ I use this repository to practice concepts, build projects, experiment with new 
 - [ ] Advanced React.js
 - [ ] TypeScript
 - [ ] Next.js
-
-## 🚀 Getting Started
-
-Clone this repository:
-
-```bash
-git clone github.com/PWN-N/Frontend-projects
-```
-
-Navigate to the project folder:
-
-```bash
-cd Frontend-projects
-```
 
 Each project may have its own setup instructions and dependencies.
 
